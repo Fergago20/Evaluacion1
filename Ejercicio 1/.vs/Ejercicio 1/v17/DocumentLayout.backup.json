@@ -3,13 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0018DFC5-4279-4216-9987-9893013176B8}|..\\Ejercicio 4\\Ejercicio 4.csproj|c:\\users\\dell\\documents\\trabajo 1\\ejercicio 4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{859BD94C-80EF-4B18-83B1-BE7D46CEB9E9}|..\\Ejercicio 3\\Ejercicio 3.csproj|c:\\users\\dell\\documents\\trabajo 1\\ejercicio 3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859BD94C-80EF-4B18-83B1-BE7D46CEB9E9}|..\\Ejercicio 3\\Ejercicio 3.csproj|c:\\users\\dell\\documents\\trabajo 1\\ejercicio 3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0018DFC5-4279-4216-9987-9893013176B8}|..\\Ejercicio 4\\Ejercicio 4.csproj|c:\\users\\dell\\documents\\trabajo 1\\ejercicio 4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7483AB16-BB4A-4896-9CB2-E43A969F7F98}|Ejercicio 1.csproj|c:\\users\\dell\\documents\\trabajo 1\\ejercicio 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7483AB16-BB4A-4896-9CB2-E43A969F7F98}|Ejercicio 1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9BBA97-DAD5-4BD0-A4F9-C4B040BB7543}|..\\Ejercicio 2\\Ejercicio 2.csproj|c:\\users\\dell\\documents\\trabajo 1\\ejercicio 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0018DFC5-4279-4216-9987-9893013176B8}|..\\Ejercicio 4\\Ejercicio 4.csproj|c:\\users\\dell\\documents\\trabajo 1\\ejercicio 4\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7483AB16-BB4A-4896-9CB2-E43A969F7F98}|Ejercicio 1.csproj|c:\\users\\dell\\documents\\trabajo 1\\ejercicio 1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7483AB16-BB4A-4896-9CB2-E43A969F7F98}|Ejercicio 1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9BBA97-DAD5-4BD0-A4F9-C4B040BB7543}|..\\Ejercicio 2\\Ejercicio 2.csproj|c:\\users\\dell\\documents\\trabajo 1\\ejercicio 2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859BD94C-80EF-4B18-83B1-BE7D46CEB9E9}|..\\Ejercicio 3\\Ejercicio 3.csproj|c:\\users\\dell\\documents\\trabajo 1\\ejercicio 3\\clase\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0018DFC5-4279-4216-9987-9893013176B8}|..\\Ejercicio 4\\Ejercicio 4.csproj|c:\\users\\dell\\documents\\trabajo 1\\ejercicio 4\\clase\\empresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{859BD94C-80EF-4B18-83B1-BE7D46CEB9E9}|..\\Ejercicio 3\\Ejercicio 3.csproj|c:\\users\\dell\\documents\\trabajo 1\\ejercicio 3\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,7 +45,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,7 +61,132 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 4\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\Ejercicio 4\\Form1.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 4\\Form1.cs",
+              "RelativeToolTip": "..\\Ejercicio 4\\Form1.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T22:57:08.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 4\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\Ejercicio 4\\Form1.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 4\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\Ejercicio 4\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T22:56:43.626Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 1\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 1\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T22:56:18.589Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 2\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\Ejercicio 2\\Form1.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 2\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\Ejercicio 2\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T22:55:49.298Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 3\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\Ejercicio 3\\Form1.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 3\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\Ejercicio 3\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T21:38:57.417Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 3\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\Ejercicio 3\\Form1.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 3\\Form1.cs",
+              "RelativeToolTip": "..\\Ejercicio 3\\Form1.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAcwGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T21:42:27.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 3\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "..\\Ejercicio 3\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 3\\Form1.Designer.cs",
+              "RelativeToolTip": "..\\Ejercicio 3\\Form1.Designer.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAcwJMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T21:47:25.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 2\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\Ejercicio 2\\Form1.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 2\\Form1.cs",
+              "RelativeToolTip": "..\\Ejercicio 2\\Form1.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T22:55:56.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 1\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 1\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T22:56:25.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Venta.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 3\\clase\\Venta.cs",
+              "RelativeDocumentMoniker": "..\\Ejercicio 3\\clase\\Venta.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 3\\clase\\Venta.cs",
+              "RelativeToolTip": "..\\Ejercicio 3\\clase\\Venta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T21:41:33.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Empresa.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 4\\clase\\Empresa.cs",
               "RelativeDocumentMoniker": "..\\Ejercicio 4\\clase\\Empresa.cs",
@@ -43,33 +194,7 @@
               "RelativeToolTip": "..\\Ejercicio 4\\clase\\Empresa.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T04:47:56.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 4\\Form1.cs",
-              "RelativeDocumentMoniker": "..\\Ejercicio 4\\Form1.cs",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 4\\Form1.cs",
-              "RelativeToolTip": "..\\Ejercicio 4\\Form1.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAcwHQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T04:29:54.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 4\\Form1.cs",
-              "RelativeDocumentMoniker": "..\\Ejercicio 4\\Form1.cs",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\Trabajo 1\\Ejercicio 4\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\Ejercicio 4\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T04:29:14.324Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-09-17T04:47:56.588Z"
             }
           ]
         }

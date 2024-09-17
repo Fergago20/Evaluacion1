@@ -26,15 +26,15 @@ namespace Ejercicio_4
             lblSalida.Text = " ";
             try
             {
-                
+                //Toma datos de la interfaz grafica usando el contador global
                 emp.Nombre[index]= tbNombre.Text;
                 emp.Ventas[index]= double.Parse(tbVenta.Text);
                 emp.Salario[index] = 200 + (emp.Ventas[index] * 0.09);
                 emp.Suma = emp.Suma + emp.Salario[index];
                 Contar(emp.Salario[index]);
-
+                Mostrar();
                
-
+                //Etiqueta encargada de mostrar el salario actual y la suma de todos
                 lblSalida.Text = "El Salario total es de: " + emp.Salario[index];
                 lblSuma.Text = "La suma total es de: " + emp.Suma;
                 
@@ -51,7 +51,7 @@ namespace Ejercicio_4
 
         void Contar(double salario)
         {
-
+            //Ingresa sumatoria de los rangos
             if (salario >= 200 && salario < 300)
             {
                 Agregar(0);
@@ -93,28 +93,73 @@ namespace Ejercicio_4
                 MessageBox.Show("Salario fuera del rango");
             }
         }
+        //Funcion que aumenta el numero de los rangos
         void Agregar(int j)
         {
             emp.conteo[j] = emp.conteo[j] + 1;
         }
-
+        // Funcion que añade los rangos a una list box
         void Mostrar()
         {
             lbTabla.Items.Clear();
             lbTabla.Items.Add("$200-$299");
             lbTabla.Items.Add("$300-$399");
-            lbTabla.Items.Add("$$400-$499");
+            lbTabla.Items.Add("$400-$499");
             lbTabla.Items.Add("$500-$599");
             lbTabla.Items.Add("$600-$699");
             lbTabla.Items.Add("$700-$799");
             lbTabla.Items.Add("$800-$899");
             lbTabla.Items.Add("$900-$999");
-            lbTabla.Items.Add("$$1000 o superior");
+            lbTabla.Items.Add("$1000 o superior");
         }
 
         private void lbTabla_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            //Funcion que emite el conteo de los rangos
+
+            if (lbTabla.SelectedItem != null) // Verificar que hay un elemento seleccionado
+            {
+                string selectedItem = lbTabla.SelectedItem.ToString();
+
+                switch (selectedItem)
+                {
+                    case "$200-$299":
+                        MessageBox.Show(emp.conteo[0].ToString());
+                        break;
+                    case "$300-$399":
+                        MessageBox.Show(emp.conteo[1].ToString());
+                        break;
+                    case "$400-$499":
+                        MessageBox.Show(emp.conteo[2].ToString());
+                        break;
+                    case "$500-$599":
+                        MessageBox.Show(emp.conteo[3].ToString());
+                        break;
+                    case "$600-$699":
+                        MessageBox.Show(emp.conteo[4].ToString());
+                        break;
+                    case "$700-$799":
+                        MessageBox.Show(emp.conteo[5].ToString());
+                        break;
+                    case "$800-$899":
+                        MessageBox.Show(emp.conteo[6].ToString());
+                        break;
+                    case "$900-$999":
+                        MessageBox.Show(emp.conteo[7].ToString());
+                        break;
+                    case "$1000 o superior":
+                        MessageBox.Show(emp.conteo[8].ToString());
+                        break;
+                    default:
+                        MessageBox.Show("Selección no válida.");
+                        break;
+                }
+            }
+            else
+            {
+                MessageBox.Show("Por favor, selecciona un rango.");
+            }
+
         }
     }
 }

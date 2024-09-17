@@ -37,6 +37,7 @@
             this.lblSalida = new System.Windows.Forms.Label();
             this.lblSuma = new System.Windows.Forms.Label();
             this.lbTabla = new System.Windows.Forms.ListBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -91,7 +92,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(173, 89);
             this.button1.TabIndex = 5;
-            this.button1.Text = "button1";
+            this.button1.Text = "Agregar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -101,9 +102,8 @@
             this.lblSalida.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSalida.Location = new System.Drawing.Point(28, 251);
             this.lblSalida.Name = "lblSalida";
-            this.lblSalida.Size = new System.Drawing.Size(51, 20);
+            this.lblSalida.Size = new System.Drawing.Size(0, 20);
             this.lblSalida.TabIndex = 6;
-            this.lblSalida.Text = "label4";
             // 
             // lblSuma
             // 
@@ -111,9 +111,8 @@
             this.lblSuma.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSuma.Location = new System.Drawing.Point(28, 297);
             this.lblSuma.Name = "lblSuma";
-            this.lblSuma.Size = new System.Drawing.Size(51, 20);
+            this.lblSuma.Size = new System.Drawing.Size(0, 20);
             this.lblSuma.TabIndex = 7;
-            this.lblSuma.Text = "label4";
             // 
             // lbTabla
             // 
@@ -124,11 +123,22 @@
             this.lbTabla.TabIndex = 8;
             this.lbTabla.SelectedIndexChanged += new System.EventHandler(this.lbTabla_SelectedIndexChanged);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(459, 185);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(217, 20);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Click al rango para ver conteo";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.lbTabla);
             this.Controls.Add(this.lblSuma);
             this.Controls.Add(this.lblSalida);
@@ -156,6 +166,7 @@
         private System.Windows.Forms.Label lblSalida;
         private System.Windows.Forms.Label lblSuma;
         private System.Windows.Forms.ListBox lbTabla;
+        private System.Windows.Forms.Label label4;
     }
 }
 

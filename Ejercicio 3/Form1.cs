@@ -13,9 +13,10 @@ namespace Ejercicio_3
 {
     public partial class Form1 : Form
     {
-        int index = 0;
+        //Lista sin limites establecidos para guardar arreglos de un objeto
+        private List<Venta> ventas = new List<Venta>();
 
-        Venta ven = new Venta();
+       
         public Form1()
         {
             InitializeComponent();
@@ -23,56 +24,83 @@ namespace Ejercicio_3
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // Obtiene numero de venddedor, producto y la ganancia
             try
             {
-                Agregar(index);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
-            }
-        }
-        void Agregar (int index)
-        {
-            
-            dgMatriz.Columns.Add("Producto ", "Productos");
-            if (!string.IsNullOrEmpty(tbVendedor.Text) && !Verificar(tbVendedor.Text, ven.Vendedor))
-            {
-                ven.Vendedor[index] = tbVendedor.Text;
-                dgMatriz.Columns.Add("Vendedor " + (index + 1).ToString(), ven.Vendedor[index]);
+                int vendedor = int.Parse(tbVendedor.Text);
+                int producto = int.Parse(tbProducto.Text);
+                float valorVenta = float.Parse(tbGanancia.Text);
 
-            }
-
-            using (Form2 materias = new Form2(index)) materias.ShowDialog();
-            Llenar();
-
-            index++;
-        }
-
-        bool Verificar (string palabra, string[] valor)
-        {
-               for (int i = 0; i < valor.Length; i++)
+                
+                if (vendedor >= 1 && vendedor <= 4 && producto >= 1 && producto <= 5)
                 {
-                    if (valor[i]== palabra)
-                    {
-                        return true;
-                    }
+                    // Crea un nuevo objeto
+                    Venta nuevaVenta = new Venta(vendedor, producto, valorVenta);
+                    ventas.Add(nuevaVenta);
+
                 }
-            return false;
-        }
+                else
+                {
+                    MessageBox.Show("Error: Vendedor o producto fuera de rango.");
+                }
 
-        void Llenar()
-        {
-            for(int i = 0; i< index; i++)
+                // Limpiar campos de texto
+                tbVendedor.Clear();
+                tbProducto.Clear();
+                tbGanancia.Clear();
+            }catch(Exception ex)
             {
-                dgMatriz.Rows[index].Cells[i].Value= ven.Ganancia[index, i];
+                MessageBox.Show(ex.Message);
             }
-            
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            lblVen.Text = lblVen.Text + index + 1;
+            // Matriz para almacenar canancias
+            float[,] resumenVentas = new float[5, 4];
+
+            // Suma todo el total de ventas
+            for (int i = 0; i < ventas.Count; i++)
+            {
+                Venta venta = ventas[i]; 
+                resumenVentas[venta.Producto - 1, venta.Vendedor - 1] += venta.ValorVenta;
+            }
+
+            // Añadir al listbox
+            lbTabla.Items.Clear();
+            lbTabla.Items.Add("Producto/Vendedor   1       2       3       4   | Total Producto");
+
+            //For exclusivo para las columnas
+            for (int producto = 0; producto < 5; producto++)
+            {
+                float totalProducto = 0;
+                string linea = $"Producto {producto + 1}       ";
+
+                //For para las filas
+                for (int vendedor = 0; vendedor < 4; vendedor++)
+                {
+                    linea += $"{resumenVentas[producto, vendedor],8:F2} ";
+                    totalProducto += resumenVentas[producto, vendedor];
+                }
+
+                linea += $"| {totalProducto,8:F2}";
+                lbTabla.Items.Add(linea);
+            }
+
+            
+            lbTabla.Items.Add("----------------------------------------------------------");
+            string lineaTotales = "Total Vendedor     ";
+            //For empleado para añadir linea de sumas total de productos
+            for (int vendedor = 0; vendedor < 4; vendedor++)
+            {
+                float totalVendedor = 0;
+                for (int producto = 0; producto < 5; producto++)
+                {
+                    totalVendedor += resumenVentas[producto, vendedor];
+                }
+                lineaTotales += $"{totalVendedor,8:F2} ";
+            }
+            lbTabla.Items.Add(lineaTotales);
         }
     }
 }

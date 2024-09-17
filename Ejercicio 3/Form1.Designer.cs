@@ -30,14 +30,14 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.lblVen = new System.Windows.Forms.Label();
-            this.dgMatriz = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Registrar = new System.Windows.Forms.Button();
             this.tbVendedor = new System.Windows.Forms.TextBox();
-            this.lblPro = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.tbProducto = new System.Windows.Forms.TextBox();
-            this.lblCos = new System.Windows.Forms.Label();
-            this.tbCosto = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dgMatriz)).BeginInit();
+            this.label3 = new System.Windows.Forms.Label();
+            this.tbGanancia = new System.Windows.Forms.TextBox();
+            this.lbTabla = new System.Windows.Forms.ListBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -56,27 +56,19 @@
             this.lblVen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVen.Location = new System.Drawing.Point(13, 65);
             this.lblVen.Name = "lblVen";
-            this.lblVen.Size = new System.Drawing.Size(159, 20);
+            this.lblVen.Size = new System.Drawing.Size(177, 20);
             this.lblVen.TabIndex = 1;
-            this.lblVen.Text = "Ingreso de Vendedor";
+            this.lblVen.Text = "Ingrese n° de Vendedor";
             // 
-            // dgMatriz
+            // Registrar
             // 
-            this.dgMatriz.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgMatriz.Location = new System.Drawing.Point(204, 205);
-            this.dgMatriz.Name = "dgMatriz";
-            this.dgMatriz.Size = new System.Drawing.Size(263, 150);
-            this.dgMatriz.TabIndex = 2;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(572, 65);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 67);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Registrar.Location = new System.Drawing.Point(572, 65);
+            this.Registrar.Name = "Registrar";
+            this.Registrar.Size = new System.Drawing.Size(129, 67);
+            this.Registrar.TabIndex = 3;
+            this.Registrar.Text = "Registrar";
+            this.Registrar.UseVisualStyleBackColor = true;
+            this.Registrar.Click += new System.EventHandler(this.button1_Click);
             // 
             // tbVendedor
             // 
@@ -85,56 +77,75 @@
             this.tbVendedor.Size = new System.Drawing.Size(263, 20);
             this.tbVendedor.TabIndex = 4;
             // 
-            // lblPro
+            // label2
             // 
-            this.lblPro.AutoSize = true;
-            this.lblPro.Location = new System.Drawing.Point(13, 119);
-            this.lblPro.Name = "lblPro";
-            this.lblPro.Size = new System.Drawing.Size(153, 13);
-            this.lblPro.TabIndex = 5;
-            this.lblPro.Text = "Ingrese el nombre del producto";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(12, 112);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(170, 20);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Ingrese n° de producto";
             // 
             // tbProducto
             // 
-            this.tbProducto.Location = new System.Drawing.Point(204, 116);
+            this.tbProducto.Location = new System.Drawing.Point(204, 114);
             this.tbProducto.Name = "tbProducto";
             this.tbProducto.Size = new System.Drawing.Size(263, 20);
             this.tbProducto.TabIndex = 6;
             // 
-            // lblCos
+            // label3
             // 
-            this.lblCos.AutoSize = true;
-            this.lblCos.Location = new System.Drawing.Point(13, 174);
-            this.lblCos.Name = "lblCos";
-            this.lblCos.Size = new System.Drawing.Size(174, 13);
-            this.lblCos.TabIndex = 7;
-            this.lblCos.Text = "Ingrese ventas totales por producto";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(13, 160);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(189, 20);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Ingrese valor de producto";
             // 
-            // tbCosto
+            // tbGanancia
             // 
-            this.tbCosto.Location = new System.Drawing.Point(204, 167);
-            this.tbCosto.Name = "tbCosto";
-            this.tbCosto.Size = new System.Drawing.Size(263, 20);
-            this.tbCosto.TabIndex = 8;
+            this.tbGanancia.Location = new System.Drawing.Point(204, 160);
+            this.tbGanancia.Name = "tbGanancia";
+            this.tbGanancia.Size = new System.Drawing.Size(263, 20);
+            this.tbGanancia.TabIndex = 8;
+            // 
+            // lbTabla
+            // 
+            this.lbTabla.FormattingEnabled = true;
+            this.lbTabla.Location = new System.Drawing.Point(204, 209);
+            this.lbTabla.Name = "lbTabla";
+            this.lbTabla.Size = new System.Drawing.Size(263, 95);
+            this.lbTabla.TabIndex = 9;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(572, 209);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(129, 60);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "Informe";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.tbCosto);
-            this.Controls.Add(this.lblCos);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.lbTabla);
+            this.Controls.Add(this.tbGanancia);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.tbProducto);
-            this.Controls.Add(this.lblPro);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.tbVendedor);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dgMatriz);
+            this.Controls.Add(this.Registrar);
             this.Controls.Add(this.lblVen);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgMatriz)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -144,13 +155,14 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblVen;
-        private System.Windows.Forms.DataGridView dgMatriz;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Registrar;
         private System.Windows.Forms.TextBox tbVendedor;
-        private System.Windows.Forms.Label lblPro;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox tbProducto;
-        private System.Windows.Forms.Label lblCos;
-        private System.Windows.Forms.TextBox tbCosto;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox tbGanancia;
+        private System.Windows.Forms.ListBox lbTabla;
+        private System.Windows.Forms.Button button2;
     }
 }
 

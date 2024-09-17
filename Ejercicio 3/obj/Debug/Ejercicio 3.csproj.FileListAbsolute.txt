@@ -9,3 +9,13 @@ C:\Users\Alvaro\OneDrive\Documentos\Trabajo\Ejercicio 3\obj\Debug\Ejercicio 3.cs
 C:\Users\Alvaro\OneDrive\Documentos\Trabajo\Ejercicio 3\obj\Debug\Ejercicio 3.exe
 C:\Users\Alvaro\OneDrive\Documentos\Trabajo\Ejercicio 3\obj\Debug\Ejercicio 3.pdb
 C:\Users\Alvaro\OneDrive\Documentos\Trabajo\Ejercicio 3\obj\Debug\Ejercicio_3.Form2.resources
+C:\Users\Dell\Documents\Trabajo 1\Ejercicio 3\obj\Debug\Ejercicio 3.csproj.AssemblyReference.cache
+C:\Users\Dell\Documents\Trabajo 1\Ejercicio 3\obj\Debug\Ejercicio_3.Form1.resources
+C:\Users\Dell\Documents\Trabajo 1\Ejercicio 3\obj\Debug\Ejercicio_3.Properties.Resources.resources
+C:\Users\Dell\Documents\Trabajo 1\Ejercicio 3\obj\Debug\Ejercicio 3.csproj.GenerateResource.cache
+C:\Users\Dell\Documents\Trabajo 1\Ejercicio 3\obj\Debug\Ejercicio 3.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\Trabajo 1\Ejercicio 3\obj\Debug\Ejercicio 3.exe
+C:\Users\Dell\Documents\Trabajo 1\Ejercicio 3\obj\Debug\Ejercicio 3.pdb
+C:\Users\Dell\Documents\Trabajo 1\Ejercicio 3\bin\Debug\Ejercicio 3.exe.config
+C:\Users\Dell\Documents\Trabajo 1\Ejercicio 3\bin\Debug\Ejercicio 3.exe
+C:\Users\Dell\Documents\Trabajo 1\Ejercicio 3\bin\Debug\Ejercicio 3.pdb

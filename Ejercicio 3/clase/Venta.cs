@@ -8,9 +8,16 @@ namespace Ejercicio_3.clase
 {
     internal class Venta
     {
-        public string[] Vendedor = new string[5];
-        public string [] Producto = new string[6];
-        public int[,] Ganancia = new int[7, 6];
+        public int Vendedor { get; set; }
+        public int Producto { get; set; }
+        public float ValorVenta { get; set; }
+
+        public Venta(int vendedor, int producto, float valorVenta)
+        {
+            Vendedor = vendedor;
+            Producto = producto;
+            ValorVenta = valorVenta;
+        }
 
     }
 }
